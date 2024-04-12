@@ -1,0 +1,134 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.modal-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+
+  padding: 20px;
+  max-width: 90%;
+  height: 90%;
+
+  overflow: auto;
+  width: 100%;
+}
+
+.back-icon {
+  width: 30px;
+}
+
+.logo img {
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sp-content,
+.tie-content,
+.lo-content {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.sp-content img,
+.tie-content img,
+.lo-content img {
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.sp-content img:hover,
+.tie-content img:hover,
+.lo-content img:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.sp-content img {
+  margin-left: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sp-content img,
+  .tie-content img,
+  .lo-content img {
+    margin-left: 0;
+  }
+}
+
+.sp-buttons,
+.tie-buttons,
+.lo-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sp-buttons button,
+.tie-buttons button,
+.lo-buttons button {
+  padding: 12px 24px;
+  margin: 3px 0;
+  border: none;
+  border-radius: 25px;
+  width: 300px;
+  background-color: #529954;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tie-buttons button {
+  background-color: #b865c4;
+}
+
+.lo-buttons button {
+  background-color: #5d40ff;
+}
+
+.tie-content img:last-child {
+  margin-top: 10px;
+}
+
+.lo-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lo-content li {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 18px;
+}
