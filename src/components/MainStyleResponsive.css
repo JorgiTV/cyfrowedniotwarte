@@ -76,4 +76,8 @@
   .main-page-footer-content img {
     width: 10%;
   }
+
+  .main-page-mobile {
+    margin-bottom: 70px;
+  }
 }
