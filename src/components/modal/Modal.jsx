@@ -1,5 +1,14 @@
-import React, { useEffect, useState } from "react";
 import "./Modal.css";
+
+import image1 from "../../assets/profiles/Slajd1.JPG";
+import image2 from "../../assets/profiles/Slajd2.JPG";
+import image3 from "../../assets/profiles/Slajd3.JPG";
+import image4 from "../../assets/profiles/Slajd4.JPG";
+import image5 from "../../assets/profiles/Slajd5.JPG";
+import image6 from "../../assets/profiles/Slajd6.JPG";
+import image7 from "../../assets/profiles/Slajd7.JPG";
+import image8 from "../../assets/profiles/Slajd8.JPG";
+import image9 from "../../assets/profiles/Slajd9.JPG";
 
 const Modal = ({ offerType }) => {
   return (
@@ -16,29 +25,34 @@ const Modal = ({ offerType }) => {
           <div className="lo-element">
             <div className="lo-content">
               <img
-                src="https://www.cyfroweszkoly.pl/wp-content/uploads/2021/02/lobch.jpg/"
+                src={image1}
                 alt="lo-img"
               />
 
               <img
-                src="https://www.cyfroweszkoly.pl/wp-content/uploads/2021/02/loag.jpg/"
+                src={image2}
                 alt="lo-img"
               />
 
               <img
-                src="https://www.cyfroweszkoly.pl/wp-content/uploads/2021/02/loprdzi.jpg/"
+                src={image3}
                 alt="lo-img"
               />
 
               <img
-                src="https://www.cyfroweszkoly.pl/wp-content/uploads/2021/02/lobhum.jpg/"
+                src={image4}
                 alt="lo-img"
               />
 
-              <ul>
-                <li>Profil politechniczny (mat-fiz-ang)</li>
-                <li>Profil sportowy (ang-geo-siatkówka)</li>
-              </ul>
+              <img
+                src={image5}
+                alt="lo-img"
+              />
+
+              <img
+                src={image6}
+                alt="lo-img"
+              />
 
               <div className="lo-buttons">
                 <button
@@ -58,12 +72,12 @@ const Modal = ({ offerType }) => {
           <div className="tie-element">
             <div className="tie-content">
               <img
-                src="https://www.cyfroweszkoly.pl/wp-content/uploads/2021/02/tinf.jpg"
+                src={image7}
                 alt="tie-img"
               />
 
               <img
-                src="https://www.cyfroweszkoly.pl/wp-content/uploads/2021/02/tprog.jpg"
+                src={image8}
                 alt="tie-img"
               />
             </div>
@@ -101,7 +115,7 @@ const Modal = ({ offerType }) => {
           <div className="sp-element">
             <div className="sp-content">
               <img
-                src="https://www.cyfroweszkoly.pl/wp-content/uploads/2021/02/sp.jpg"
+                src={image9}
                 alt="sp-img"
               />
             </div>
