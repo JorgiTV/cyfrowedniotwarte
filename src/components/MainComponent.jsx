@@ -171,7 +171,18 @@ const MainComponent = () => {
 
       <div className="main-page-footer">
         <div className="main-page-footer-content">
-          <img
+          <a href="https://www.twitch.tv/tie9olsztyn" target="_blank" rel="noreferrer">
+            <img src={logoTwitch} alt="twitch" />
+          </a>
+
+          <a href="https://www.instagram.com/cyfroweszkoly/" target="_blank" rel="noreferrer">
+            <img src={logoInstagram} alt="instagram" />
+          </a>
+
+          <a href="https://www.tiktok.com/@lo11_tie9_olsztyn" target="_blank" rel="noreferrer">
+            <img src={logoTiktok} alt="tiktok" />
+          </a>
+          {/* <img
             src={logoTwitch}
             alt="twitch"
             onClick={() =>
@@ -193,7 +204,7 @@ const MainComponent = () => {
               (window.location.href =
                 "https://www.tiktok.com/@lo11_tie9_olsztyn")
             }
-          />
+          /> */}
         </div>
       </div>
     </div>

@@ -73,8 +73,17 @@
     display: none;
   }
 
-  .main-page-footer-content img {
-    width: 10%;
+  .main-page-footer-content a img {
+    width: 60%;
+  }
+
+  .main-page-footer-content a {
+    margin: -5px;
+    width: 16%;
+  }
+
+  .main-page-footer-content a:first-child {
+    margin-left: 5px;
   }
 
   .main-page-mobile {

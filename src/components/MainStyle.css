@@ -150,7 +150,7 @@
   align-items: center;
 }
 
-.main-page-footer-content img {
+.main-page-footer-content a img {
   width: 60px;
   padding: 5px;
 
@@ -160,10 +160,10 @@
   cursor: pointer;
 }
 
-.main-page-footer-content img:last-child {
+/* .main-page-footer-content a img:last-child {
   padding-right: 30px;
 }
 
 .main-page-footer-content img:first-child {
   padding-left: 30px;
-}
+} */
