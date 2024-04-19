@@ -1,5 +1,5 @@
 .main-page-content {
-  margin-top: -50px;
+  margin-top: -45px;
 }
 
 .main-page-background-down {
@@ -29,10 +29,12 @@
   margin-bottom: 20px;
   text-align: center;
   max-width: 550px;
+  margin-top: 50px;
 }
 
 .main-page-computer .main-page-logo img {
   width: 80%;
+  max-width: 70%;
 }
 
 .main-page-computer .main-page-left {
@@ -136,6 +138,11 @@
 
   /* text-decoration: underline; */
   margin-bottom: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .main-page-footer {

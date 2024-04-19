@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Modal from "./modal/Modal";
+import ScheduleModal from "./modal/ScheduleModal";
+import AboutModal from "./modal/AboutModal";
 
 import backgroundCoverUp from "../assets/background-cover-up.svg";
 import backgroundCoverDown from "../assets/background-cover-down.svg";
@@ -22,6 +24,9 @@ const MainComponent = () => {
   const [showModal, setShowModal] = useState(false);
   const [offerType, setOfferType] = useState("");
 
+  const [showScheduleModal, setShowScheduleModal] = useState(false);
+  const [showAboutModal, setShowAboutModal] = useState(false);
+
   window.addEventListener("resize", () => {
     setWidth(window.innerWidth);
   });
@@ -31,11 +36,22 @@ const MainComponent = () => {
     setOfferType(type);
   };
 
+  const handleScheduleClick = () => {
+    setShowScheduleModal(true);
+  }
+
+  const handleAboutClick = () => {
+    setShowAboutModal(true);
+  }
+
   return (
     <div className="main-page">
+      {showScheduleModal && <ScheduleModal /> }
+      {showAboutModal && <AboutModal /> }
       {showModal && (
         <Modal offerType={offerType} onClose={() => setShowModal(false)} />
       )}
+
       <div className="main-page-backgrounds">
         <img
           src={backgroundCoverUp}
@@ -89,23 +105,21 @@ const MainComponent = () => {
                     <p>Oferta SP 311</p>
                   </div>
 
+                  <div className="main-page-button" style={{ marginTop: '10px' }} onClick={() => handleScheduleClick()}>
+                    <img src={'https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678116-calendar-512.png'} alt="calender" />
+                    <p>Harmonogram</p>
+                  </div>
+
                   <div className="main-page-information">
                     <h3>Zobacz również:</h3>
-                    <p
-                      onClick={() =>
-                        (window.location.href = "https://cyfroweszkoly.pl")
-                      }
-                    >
-                      Strona szkoły
-                    </p>
-                    <p
-                      onClick={() =>
-                        (window.location.href =
-                          "https://www.cyfroweszkoly.pl/wp-content/uploads/2024/03/oferta-XILO-TIE9.pdf")
-                      }
-                    >
-                      Prezentacja multimedialna
-                    </p>
+
+                    <div onClick={() => handleAboutClick()}>
+                      <p>Dowiedz się więcej o nas</p>
+                    </div>
+
+                    <a href="https://cyfroweszkoly.pl" target="_blank" rel="noreferrer">
+                      <p>Strona szkoły</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -146,23 +160,21 @@ const MainComponent = () => {
                 <p>Oferta SP 311</p>
               </div>
 
+              <div className="main-page-button" style={{ marginTop: '10px' }} onClick={() => handleScheduleClick()}>
+                <img src={'https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678116-calendar-512.png'} alt="" />
+                <p>Harmonogram</p>
+              </div>
+
               <div className="main-page-information">
                 <h3>Zobacz również:</h3>
-                <p
-                  onClick={() =>
-                    (window.location.href = "https://cyfroweszkoly.pl")
-                  }
-                >
-                  Strona szkoły
-                </p>
-                <p
-                  onClick={() =>
-                    (window.location.href =
-                      "https://www.cyfroweszkoly.pl/wp-content/uploads/2024/03/oferta-XILO-TIE9.pdf")
-                  }
-                >
-                  Prezentacja multimedialna
-                </p>
+
+                <div onClick={() => handleAboutClick()}>
+                  <p>Dowiedz się więcej o nas</p>
+                </div>
+
+                <a href="https://cyfroweszkoly.pl" target="_blank" rel="noreferrer">
+                  <p>Strona szkoły</p>
+                </a>
               </div>
             </div>
           </div>
@@ -182,29 +194,6 @@ const MainComponent = () => {
           <a href="https://www.tiktok.com/@lo11_tie9_olsztyn" target="_blank" rel="noreferrer">
             <img src={logoTiktok} alt="tiktok" />
           </a>
-          {/* <img
-            src={logoTwitch}
-            alt="twitch"
-            onClick={() =>
-              (window.location.href = "https://www.twitch.tv/tie9olsztyn")
-            }
-          />
-          <img
-            src={logoInstagram}
-            alt="instagram"
-            onClick={() =>
-              (window.location.href =
-                "https://www.instagram.com/cyfroweszkoly/")
-            }
-          />
-          <img
-            src={logoTiktok}
-            alt="tiktok"
-            onClick={() =>
-              (window.location.href =
-                "https://www.tiktok.com/@lo11_tie9_olsztyn")
-            }
-          /> */}
         </div>
       </div>
     </div>
