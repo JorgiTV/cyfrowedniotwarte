@@ -174,3 +174,11 @@ a {
 .main-page-footer-content img:first-child {
   padding-left: 30px;
 } */
+
+.open-day-container p {
+  margin: 0px;
+}
+
+.open-day-container {
+  margin-bottom: 15px;
+}

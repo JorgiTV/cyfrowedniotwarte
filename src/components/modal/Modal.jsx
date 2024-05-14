@@ -10,6 +10,15 @@ import image7 from "../../assets/profiles/Slajd7.JPG";
 import image8 from "../../assets/profiles/Slajd8.JPG";
 import image9 from "../../assets/profiles/Slajd9.JPG";
 
+import kafelek1 from "../../assets/tiles/kafelki-1.png";
+import kafelek2 from "../../assets/tiles/kafelki-2.png";
+import kafelek3 from "../../assets/tiles/kafelki-3.png";
+import kafelek4 from "../../assets/tiles/kafelki-4.png";
+import kafelek5 from "../../assets/tiles/kafelki-5.png";
+import kafelek6 from "../../assets/tiles/kafelki-6.png";
+import kafelek7 from "../../assets/tiles/kafelki-7.png";
+import kafelek8 from "../../assets/tiles/kafelki-8.png";
+
 const Modal = ({ offerType }) => {
   return (
     <div className="modal-window">
@@ -24,35 +33,97 @@ const Modal = ({ offerType }) => {
         {offerType === "lo" && (
           <div className="lo-element">
             <div className="lo-content">
-              <img
-                src={image1}
-                alt="lo-img"
-              />
+              <div className="flip-cards">
+                <div className="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img
+                          src={image1}
+                          alt="lo-img"
+                      />
+                    </div>
 
-              <img
-                src={image2}
-                alt="lo-img"
-              />
+                    <div className="flip-card-back">
+                      <img src={kafelek1} alt="lo-img" />
+                    </div>
+                  </div>
+                </div>
 
-              <img
-                src={image3}
-                alt="lo-img"
-              />
+                <div className="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img
+                          src={image2}
+                          alt="lo-img"
+                      />
+                    </div>
 
-              <img
-                src={image4}
-                alt="lo-img"
-              />
+                    <div className="flip-card-back">
+                      <img src={kafelek2} alt="lo-img" />
+                    </div>
+                  </div>
+                </div>
 
-              <img
-                src={image5}
-                alt="lo-img"
-              />
+                <div className="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img
+                          src={image3}
+                          alt="lo-img"
+                      />
+                    </div>
 
-              <img
-                src={image6}
-                alt="lo-img"
-              />
+                    <div className="flip-card-back">
+                      <img src={kafelek3} alt="lo-img" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img
+                          src={image4}
+                          alt="lo-img"
+                      />
+                    </div>
+
+                    <div className="flip-card-back">
+                      <img src={kafelek4} alt="lo-img" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img
+                          src={image5}
+                          alt="lo-img"
+                      />
+                    </div>
+
+                    <div className="flip-card-back">
+                      <img src={kafelek5} alt="lo-img" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img
+                          src={image6}
+                          alt="lo-img"
+                      />
+                    </div>
+
+                    <div className="flip-card-back">
+                      <img src={kafelek6} alt="lo-img" />
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               <div className="lo-buttons">
                 <a href="https://www.cyfroweszkoly.pl/wp-content/uploads/2024/03/Regulamin-rekrutacji-XILO-24_25-1.pdf" target="_blank" rel="noreferrer">
@@ -66,15 +137,37 @@ const Modal = ({ offerType }) => {
         {offerType === "tie" && (
           <div className="tie-element">
             <div className="tie-content">
-              <img
-                src={image7}
-                alt="tie-img"
-              />
+              <div className="flip-cards">
+                <div className="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img
+                        src={image7}
+                        alt="tie-img"
+                      />
+                    </div>
 
-              <img
-                src={image8}
-                alt="tie-img"
-              />
+                    <div className="flip-card-back">
+                      <img src={kafelek7} alt="tie-img" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img
+                        src={image8}
+                        alt="tie-img"
+                      />
+                    </div>
+
+                    <div className="flip-card-back">
+                      <img src={kafelek8} alt="tie-img" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="tie-buttons">

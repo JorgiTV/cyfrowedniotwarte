@@ -81,6 +81,12 @@ const MainComponent = () => {
                 </div>
 
                 <div className="main-page-buttons-rec">
+                  <div className="open-day-container">
+                    <p><b>Dzień Otwarty</b></p>
+                    <p>sobota, 25 maja 2024</p>
+                    <p>godz. 10:00-14:00</p>
+                  </div>
+
                   <div
                     className="main-page-button"
                     onClick={() => handleOfferClick("lo")}
@@ -136,6 +142,12 @@ const MainComponent = () => {
             </div>
 
             <div className="main-page-buttons-rec">
+              <div className="open-day-container">
+                <p><b>Dzień Otwarty</b></p>
+                <p>sobota, 25 maja 2024</p>
+                <p>godz. 10:00-14:00</p>
+              </div>
+
               <div
                 className="main-page-button"
                 onClick={() => handleOfferClick("lo")}
