@@ -1,12 +1,20 @@
 {
   "files": {
-    "main.css": "/cyfrowedniotwarte/static/css/main.7624ea39.css",
-    "main.js": "/cyfrowedniotwarte/static/js/main.90714dae.js",
+    "main.css": "/cyfrowedniotwarte/static/css/main.4cf28fe3.css",
+    "main.js": "/cyfrowedniotwarte/static/js/main.a45418cb.js",
     "static/media/thumbnail_sl2.jpg": "/cyfrowedniotwarte/static/media/thumbnail_sl2.a1f2f3b5050147949c4b.jpg",
+    "static/media/kafelki-3.png": "/cyfrowedniotwarte/static/media/kafelki-3.99f7c506b19d14fba4e4.png",
+    "static/media/kafelki-5.png": "/cyfrowedniotwarte/static/media/kafelki-5.aaa54781fa1d9f967c53.png",
+    "static/media/kafelki-2.png": "/cyfrowedniotwarte/static/media/kafelki-2.cae2f2a2220a2b208504.png",
     "static/media/thumbnail_sl4.jpg": "/cyfrowedniotwarte/static/media/thumbnail_sl4.43f92795c1091f660174.jpg",
+    "static/media/kafelki-8.png": "/cyfrowedniotwarte/static/media/kafelki-8.828184d462f206209fa4.png",
     "static/media/background-cover-up.svg": "/cyfrowedniotwarte/static/media/background-cover-up.dce1e1ba3c221e0121c0287a71c431b3.svg",
     "static/media/background-cover-down.svg": "/cyfrowedniotwarte/static/media/background-cover-down.554302f3fc1e45d8d3a7714c7babc8a4.svg",
+    "static/media/kafelki-6.png": "/cyfrowedniotwarte/static/media/kafelki-6.6a0948956140815f8c12.png",
+    "static/media/kafelki-1.png": "/cyfrowedniotwarte/static/media/kafelki-1.c55dc54616e88ae2e06c.png",
+    "static/media/kafelki-4.png": "/cyfrowedniotwarte/static/media/kafelki-4.7841a486b20b9f555051.png",
     "static/media/thumbnail_sl1.jpg": "/cyfrowedniotwarte/static/media/thumbnail_sl1.014cddfe4f69e04c472e.jpg",
+    "static/media/kafelki-7.png": "/cyfrowedniotwarte/static/media/kafelki-7.74bb1d00cd016b44f356.png",
     "static/media/thumbnail_sl3.jpg": "/cyfrowedniotwarte/static/media/thumbnail_sl3.1077a3f0bb70544333a0.jpg",
     "static/media/duzeloga.png": "/cyfrowedniotwarte/static/media/duzeloga.23b4ad9a77f6561bcd33.png",
     "static/media/logo-sp.png": "/cyfrowedniotwarte/static/media/logo-sp.3deb103e934424dcf08b.png",
@@ -26,11 +34,11 @@
     "index.html": "/cyfrowedniotwarte/index.html",
     "static/media/tiktok.svg": "/cyfrowedniotwarte/static/media/tiktok.8992679ca91f66a74df13351c3095155.svg",
     "static/media/twitch.svg": "/cyfrowedniotwarte/static/media/twitch.1403a3aba745e57c86813acf98c68188.svg",
-    "main.7624ea39.css.map": "/cyfrowedniotwarte/static/css/main.7624ea39.css.map",
-    "main.90714dae.js.map": "/cyfrowedniotwarte/static/js/main.90714dae.js.map"
+    "main.4cf28fe3.css.map": "/cyfrowedniotwarte/static/css/main.4cf28fe3.css.map",
+    "main.a45418cb.js.map": "/cyfrowedniotwarte/static/js/main.a45418cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7624ea39.css",
-    "static/js/main.90714dae.js"
+    "static/css/main.4cf28fe3.css",
+    "static/js/main.a45418cb.js"
   ]
 }
